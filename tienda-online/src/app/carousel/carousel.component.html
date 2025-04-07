@@ -1,0 +1,14 @@
+<div class="carousel-container">
+  <button class="arrow left" (click)="moveToPrev()" [disabled]="currentIndex === 0">&#10094;</button>
+
+  <div class="product-viewer">
+    <div class="product-card" *ngIf="products[currentIndex]">
+      <img [src]="products[currentIndex].image" alt="{{ products[currentIndex].name }}">
+      <h3>{{ products[currentIndex].name }}</h3>
+      <p><b>Descripción:</b> {{ products[currentIndex].description }}</p>
+      <p><b>Precio:</b> ${{ products[currentIndex].price }}</p>
+    </div>
+  </div>
+
+  <button class="arrow right" (click)="moveToNext()">&#10095;</button>
+</div>

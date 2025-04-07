@@ -1,0 +1,34 @@
+/* product-list.component.css */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-info {
+    padding: 1rem;
+  }
+  
+  .product-info h4 {
+    margin: 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: green;
+  }
+  
