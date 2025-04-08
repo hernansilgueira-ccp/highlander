@@ -3,12 +3,27 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: #333;
+    background-color: #9a9898;
     color: white;
   }
   
   .logo h1 {
     margin: 0;
+  }
+  .logo-img {
+    width: 200px;
+    height: 100px;
+  }
+
+  input {
+    padding: 5px;
+  }
+  button {
+    background-color: #54413f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
   }
   
   .nav a {
